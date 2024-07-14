@@ -33,6 +33,7 @@ void display(node*& head){
     }
     cout<<"NULL\n";
 }
+
 // find length of ll
 int lengthll(node* head){
     int len = 0;

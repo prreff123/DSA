@@ -47,6 +47,13 @@ int lengthll(node* head){
     return len;
 }
 
+void deleteAtHead(node* &head){
+    node* todelete = head;
+    head=head->next;
+    head->prev=NULL;
+    delete todelete;
+}
+
 // search element in LL
 bool searchll(node* head,int k){
     node* cur = head;
