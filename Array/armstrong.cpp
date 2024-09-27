@@ -5,9 +5,7 @@ int main(){
     int n = 153;
     int temp = n;
     int p = 0;
- 
-    // Function to calculate
-    // the sum of individual digits
+    
     while (n > 0) {
         int rem = n % 10;
         p = (p) + (rem * rem * rem);
