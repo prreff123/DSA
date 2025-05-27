@@ -19,19 +19,19 @@ int main(){
      a->fun();
      return 0;
 }
-class Animal{
+class Person{
     public:
     void speak(){
         cout<<"speaking";
     }
 };
 
-class Dog : public Animal{
+class Dog : public Person{
     public:
     void speak(){
         cout<<"Barking ";
         // override function call
-        Animal::speak();
+        Person::speak();
     }
 };
 
